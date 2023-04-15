@@ -1,0 +1,7 @@
+print('Please input your 3-demrncial number')
+input_number = int(input())
+hundreds = input_number//100
+dozens = (input_number-hundreds*100)//10
+units = input_number - hundreds*100 - dozens*10
+
+print(hundreds+dozens+units)
